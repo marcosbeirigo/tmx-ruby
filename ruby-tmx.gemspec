@@ -1,5 +1,5 @@
 # -*- mode: ruby; coding: utf-8 -*- 
-require_relative "lib/tiled_tmx"
+require File.expand_path('../lib/tiled_tmx', __FILE__)
 
 GEMSPEC = Gem::Specification.new do |spec|
 
